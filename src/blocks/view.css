@@ -1,0 +1,50 @@
+.view {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+  width: 100%;
+  background-color: red;
+  flex-direction: column;
+}
+
+.view_home {
+  background-color: blanchedalmond;
+  margin: 0;
+  color: black;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  background-image: url('../images/windmill.jpg');
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+
+.view_idea {
+  background-color: green;
+}
+
+.view_data{
+  background-color: blue;
+}
+
+.view_results{
+  background-color: yellowgreen;
+}
+
+.view_about{
+  background-color: pink;
+}
+.view_test {
+  background-color: blanchedalmond;
+  margin: 0;
+  color: black;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  background-image: url('../images/windmill.jpg');
+  background-repeat:no-repeat;
+  background-size: contain;
+}

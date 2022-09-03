@@ -1,0 +1,27 @@
+.header {
+  padding: 45px 0 0;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  row-gap: 20px;
+}
+
+.header__logo {
+  max-width: 173px;
+  max-height: 33px;
+}
+
+@media screen and (max-width: 625px) {
+  /*was at 409 625 is where other breaks are*/
+  .header {
+    padding: 28px 0 32px;
+  }
+  .header__logo {
+    max-width: 126px;
+    max-height: 24px;
+    margin-left: 27px;
+  }
+}
