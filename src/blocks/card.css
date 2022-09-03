@@ -6,9 +6,12 @@
     "title title title title"
     "cap chart chart chart";
   overflow: hidden;
-row-gap: 20px;
+  row-gap: 20px;
   border: solid 1px black;
   background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .card__image {
@@ -23,16 +26,20 @@ row-gap: 20px;
   grid-area: cap;
   font-size: 14px;
   font-weight: 400px;
- color: white;
- padding: 0 15px;
+  color: white;
+  padding: 0 15px;
 }
 
 .card__title {
   grid-area: title;
   margin: 0;
-  
+
   font-size: 20px;
   font-weight: 600px;
   align-self: center;
   justify-self: center;
+}
+
+.card__list {
+  margin: 0;
 }

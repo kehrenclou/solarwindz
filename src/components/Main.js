@@ -10,7 +10,7 @@ import About from "./routes/About";
 import Test from "./routes/Test";
 
 /* ------------------------------ function Main ----------------------------- */
-function Main({ isHomeVisible }) {
+function Main() {
   return (
     <main>
       <section className="section">
