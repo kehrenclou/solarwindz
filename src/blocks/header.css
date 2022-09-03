@@ -17,7 +17,7 @@
 @media screen and (max-width: 625px) {
   /*was at 409 625 is where other breaks are*/
   .header {
-    padding: 28px 0 32px;
+    padding-top: 28px 0 0;
   }
   .header__logo {
     max-width: 126px;

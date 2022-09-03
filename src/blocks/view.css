@@ -1,41 +1,3 @@
-@keyframes pulsea {
-  0% {
-    opacity: 0.1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    transform: scale(2.3, 2.3);
-    opacity: 0;
-  }
-}
-@keyframes pulseb {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% {
-    transform: scale(1.75, 1.75);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsec {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% {
-    transform: scale(2.1, 2.1);
-    opacity: 0;
-  }
-}
-
 .view {
   display: flex;
   margin: 0;
@@ -87,52 +49,78 @@
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 1;
+  justify-content: right;
+}
+.view__test_container {
+  display: flex;
+  flex-direction: column;
+
+  flex-shrink: 1;
 }
 .view__test_text {
-  margin: 40px 0 0 260px;
-  font-size: 80px;
+  /* margin: 40px 0 0 260px; */
+  margin: 40px 0 0 0;
+  font-size: 90px;
   font-weight: 600;
   line-height: 1.2;
 }
 
 .view__test_subtext {
   margin: 0;
-  padding-top:  20px;
-  font-size: 50px;
+  padding-top: 30px;
+  font-size: 60px;
   font-weight: 200;
   line-height: 1.2;
 }
-.view__circle {
-  background-color: rgba(240, 183, 62, 0.5);
-  width: 420px;
-  height: 420px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -130px;
-  z-index: -1;
-}
 
-.view__circle_c {
-  background-color: #f19e85;
-}
-.view__circle_b {
-  background-color: rgb(243, 236, 135);
-}
-.view__circle_a {
-  background-color: rgb(236, 166, 61);
-}
+@media screen and (max-width: 850px) {
+  .view__test_text {
+    margin-left: 160px;
+    font-size: 80px;
+  }
 
-.view__circle_animation_blur_a {
-  animation: pulsea 10.3s ease-in-out 0s infinite;
-  z-index: 1;
+  .view__test_subtext {
+    font-size: 50px;
+  }
 }
-.view__circle_animation_blur_b {
-  animation: pulseb 15s ease-in-out 0s infinite;
-  z-index: 1;
-}
+@media screen and (max-width: 750px) {
+  .view__test_text {
+    margin-left: 100px;
+    font-size: 70px;
+  }
 
-.view__circle_animation_blur_c {
-  animation: pulsec 15s ease-in-out 0s infinite;
-  z-index: 1;
+  .view__test_subtext {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .view__test_text {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 60px;
+  }
+
+  .view__test_subtext {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .view__test_text {
+    margin-left: 30px;
+    font-size: 50px;
+  }
+
+  .view__test_subtext {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .view__test_text {
+    margin-left: 10px;
+    font-size: 45px;
+  }
+
+  .view__test_subtext {
+    font-size: 25px;
+  }
 }

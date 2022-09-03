@@ -1,0 +1,73 @@
+@keyframes pulsea {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(2.3, 2.3);
+    opacity: 0;
+  }
+}
+@keyframes pulseb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1.75, 1.75);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsec {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(2.1, 2.1);
+    opacity: 0;
+  }
+}
+
+.circle {
+  background-color: rgba(240, 183, 62, 0.5);
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -130px;
+  z-index: -1;
+}
+
+.circle__a {
+  background-color: rgb(236, 166, 61);
+}
+
+.circle__b {
+  background-color: rgb(243, 236, 135);
+}
+.circle__c {
+  background-color: #f19e85;
+}
+
+.circle__a_animation_blur {
+  animation: pulsea 10.3s ease-in-out 0s infinite;
+  z-index: 1;
+}
+.circle__b_animation_blur {
+  animation: pulseb 15s ease-in-out 0s infinite;
+  z-index: 1;
+}
+
+.circle__c_animation_blur {
+  animation: pulsec 15s ease-in-out 0s infinite;
+  z-index: 1;
+}
