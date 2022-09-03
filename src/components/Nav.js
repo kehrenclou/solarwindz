@@ -17,7 +17,7 @@ function Nav({ onHomeClick }) {
           </Link>
         </li>
         <li className="nav__list-item">
-          <Link to="/data" className="nav__link">
+          <Link to="/analysis" className="nav__link">
             Analysis
           </Link>
         </li>

@@ -1,6 +1,9 @@
 /* --------------------------------- imports -------------------------------- */
 import React from "react";
 import Circle from "../Circle";
+import lightbulb from "../../images/lbulb.jpg"
+
+
 
 /* ------------------------------ function View ----------------------------- */
 function Home() {
@@ -9,7 +12,9 @@ function Home() {
      <section className="view view__test">
       <p className="view__test_text"> Solar and Wind Power</p>
       <p className="view__test_subtext">a global overview...</p>
+      <img className="lightbulb" src={lightbulb} alt="lightbulb"/>
       <Circle />
+      
     </section>
   );
 }

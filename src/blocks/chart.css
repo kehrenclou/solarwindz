@@ -1,0 +1,27 @@
+.chart__container{
+    display: grid;
+    grid-template-columns: 10px 1fr 3fr 10px;
+    grid-template-areas: "prev caption chart chart chart next";
+    overflow: hidden;
+    align-items: center;
+}
+
+.chart__image{
+    object-fit: scale-down;
+    grid-area: chart;
+    max-width: 100%;
+    justify-self: center;
+    align-self: center;
+}
+
+.chart__caption{
+    grid-area: caption;
+}
+
+.chart__prev{
+    grid-area:prev;
+}
+
+.chart__next{
+    grid-area: next;
+}

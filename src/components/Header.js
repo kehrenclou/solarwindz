@@ -3,13 +3,10 @@
 import Nav from "./Nav";
 
 /* ----------------------------- function Header ---------------------------- */
-function Header({onHomeClick}) {
+function Header({ onHomeClick }) {
   return (
     <header className="header">
-      Here is the header
-      <Nav
-      onHomeClick={onHomeClick}/>
-     
+      <Nav onHomeClick={onHomeClick} />
     </header>
   );
 }
