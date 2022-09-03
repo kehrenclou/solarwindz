@@ -5,7 +5,7 @@ import React from "react";
 function Home() {
   /* --------------------------------- return --------------------------------- */
   return (
-    <section className="view view_home">
+    <section className="view view__home">
       {/* <h1>Home</h1> */}
       <p>Global Usage of Solar and Wind Power</p>
     </section>

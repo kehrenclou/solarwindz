@@ -1,3 +1,41 @@
+@keyframes pulsea {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(2.3, 2.3);
+    opacity: 0;
+  }
+}
+@keyframes pulseb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1.75, 1.75);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsec {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(2.1, 2.1);
+    opacity: 0;
+  }
+}
+
 .view {
   display: flex;
   margin: 0;
@@ -6,9 +44,12 @@
   width: 100%;
   background-color: red;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
 
-.view_home {
+.view__home {
   background-color: blanchedalmond;
   margin: 0;
   color: black;
@@ -16,35 +57,82 @@
   font-weight: 600;
   text-align: center;
   line-height: 1.2;
-  background-image: url('../images/windmill.jpg');
-  background-repeat:no-repeat;
+  background-image: url("../images/windmill.jpg");
+  background-repeat: no-repeat;
   background-size: contain;
 }
 
-.view_idea {
+.view__idea {
   background-color: green;
 }
 
-.view_data{
+.view__data {
   background-color: blue;
 }
 
-.view_results{
+.view__results {
   background-color: yellowgreen;
 }
 
-.view_about{
+.view__about {
   background-color: pink;
 }
-.view_test {
-  background-color: blanchedalmond;
+.view__test {
   margin: 0;
+  padding: 0 30px;
   color: black;
-  font-size: 60px;
-  font-weight: 600;
-  text-align: center;
-  line-height: 1.2;
-  background-image: url('../images/windmill.jpg');
-  background-repeat:no-repeat;
+  background-color: blanchedalmond;
+  text-align: right;
+  position: relative;
+  background-repeat: no-repeat;
   background-size: contain;
+  z-index: 1;
+}
+.view__test_text {
+  margin: 40px 0 0 260px;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.view__test_subtext {
+  margin: 0;
+  padding-top:  20px;
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.view__circle {
+  background-color: rgba(240, 183, 62, 0.5);
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -130px;
+  z-index: -1;
+}
+
+.view__circle_c {
+  background-color: #f19e85;
+}
+.view__circle_b {
+  background-color: rgb(243, 236, 135);
+}
+.view__circle_a {
+  background-color: rgb(236, 166, 61);
+}
+
+.view__circle_animation_blur_a {
+  animation: pulsea 10.3s ease-in-out 0s infinite;
+  z-index: 1;
+}
+.view__circle_animation_blur_b {
+  animation: pulseb 15s ease-in-out 0s infinite;
+  z-index: 1;
+}
+
+.view__circle_animation_blur_c {
+  animation: pulsec 15s ease-in-out 0s infinite;
+  z-index: 1;
 }

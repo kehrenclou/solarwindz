@@ -4,7 +4,7 @@ import React from "react";
 /* ------------------------------ function View ----------------------------- */
 function Analysis() {
   /* --------------------------------- return --------------------------------- */
-  return <section className="view view_analysis">Analysis</section>;
+  return <section className="view view__analysis">Analysis</section>;
 }
 
 /* --------------------------------- exports -------------------------------- */

@@ -1,11 +1,10 @@
 /* --------------------------------- imports -------------------------------- */
-import React from "react";
 
-/* ------------------------------ function View ----------------------------- */
-function Idea() {
+/* ---------------------------- function Windmill --------------------------- */
+function Windmill() {
   /* --------------------------------- return --------------------------------- */
-  return <section className="view view__idea">IDEA</section>;
+  return <div className="windmill"></div>;
 }
 
 /* --------------------------------- exports -------------------------------- */
-export default Idea;
+export default Windmill;
