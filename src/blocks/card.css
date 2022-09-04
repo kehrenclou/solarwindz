@@ -12,6 +12,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 80vw;
 }
 
 .card__image {
@@ -42,4 +43,21 @@
 
 .card__list {
   margin: 0;
+  display: flex;
+  column-gap: 50px;
+  overflow: hidden;
+ 
+}
+
+.card__prev{
+  left:0;
+}
+
+.card__active{
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.card__next{
+  right:0;
 }
