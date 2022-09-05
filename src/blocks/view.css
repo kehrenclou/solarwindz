@@ -21,19 +21,20 @@
   z-index: 1;
 }
 
-.view__introduction{
+.view__introduction {
   background-color: green;
   height: calc(100vh - 180px);
 }
+
 .view__conclusion {
   background-color: blue;
   height: calc(100vh - 180px);
 }
 
-.view__results {
-  /* background-color: yellowgreen; */
-  /* height: calc(100vh - 180px); */
-}
+/* .view__results {
+  background-color: yellowgreen; 
+  height: calc(100vh - 180px); 
+} */
 
 .view__about {
   background-color: pink;
