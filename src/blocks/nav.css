@@ -2,21 +2,16 @@
   display: flex;
   justify-content: center;
   position: relative;
- 
-
-  
-  /* z-index: 1; */
 }
 .nav__list {
   display: flex;
   column-gap: 20px;
-  row-gap:20px;
+  row-gap: 20px;
   list-style-type: none;
   padding: 0;
   margin: 0;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 
 .nav__link {
@@ -30,9 +25,8 @@
   color: #2f80ed;
 }
 
-@media screen and (max-width: 400px){
-  .nav{
+@media screen and (max-width: 400px) {
+  .nav {
     font-size: 14px;
   }
-  
 }

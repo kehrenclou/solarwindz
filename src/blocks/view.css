@@ -31,8 +31,8 @@
 }
 
 .view__results {
-  background-color: yellowgreen;
-  height: calc(100vh - 180px);
+  /* background-color: yellowgreen; */
+  /* height: calc(100vh - 180px); */
 }
 
 .view__about {

@@ -8,13 +8,11 @@
 @import url("./blocks/nav.css");
 @import url("./blocks/section.css");
 @import url("./blocks/view.css");
-@import url("./blocks/circle.css");
-@import url("./blocks/lightbulb.css");
-@import url("./blocks/chart.css");
 @import url("./blocks/card.css");
-@import url("./blocks/carousel.css");
 @import url("./blocks/footer.css");
 
+@import url("./blocks/circle.css");
+@import url("./blocks/lightbulb.css");
 
 @import url("~slick-carousel/slick/slick.css");
 @import url("~slick-carousel/slick/slick-theme.css");
