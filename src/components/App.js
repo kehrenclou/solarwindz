@@ -1,13 +1,9 @@
 /* --------------------------------- imports -------------------------------- */
-import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
-import View from "./routes/View";
-import Idea from "./routes/Idea";
-
-import "../App.css";
 
 /* ------------------------------ function App ------------------------------ */
 function App() {
@@ -18,13 +14,15 @@ function App() {
   /* --------------------------------- return --------------------------------- */
   return (
     <BrowserRouter>
-      <div className="page">
-        <div className="page__container">
-          <Header />
+      <div className="root">
+        <div className="page">
+          <div className="page__container">
+            <Header />
 
-          <Main />
+            <Main />
 
-          <Footer />
+            <Footer />
+          </div>
         </div>
       </div>
     </BrowserRouter>

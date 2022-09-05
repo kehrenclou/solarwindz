@@ -1,47 +1,43 @@
 .view {
+  max-width: 1280px;
   display: flex;
-  margin: 0;
-  padding: 0;
-  border: 1px solid white;
-  width: 100%;
-  background-color: red;
   flex-direction: column;
+  margin: 0 auto;
+
+  position: relative;
+  overflow: hidden;
+
+  width: 100%;
+}
+.view__home {
+  padding: 0 30px;
+  height: calc(100vh - 180px);
+  color: black;
+  background-color: blanchedalmond;
+  text-align: right;
+  justify-content: right;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.view__home {
-  background-color: blanchedalmond;
-  margin: 0;
-  color: black;
-  font-size: 60px;
-  font-weight: 600;
-  text-align: center;
-  line-height: 1.2;
-  background-image: url("../images/windmill.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.view__idea {
+.view__introduction{
   background-color: green;
-  font-weight:600;
-  font-size:60px;
-  margin:40px;
-  text-align: center;
+  height: calc(100vh - 180px);
 }
-
-.view__analysis {
+.view__conclusion {
   background-color: blue;
+  height: calc(100vh - 180px);
 }
 
 .view__results {
   background-color: yellowgreen;
+  height: calc(100vh - 180px);
 }
 
 .view__about {
   background-color: pink;
+  height: calc(100vh - 180px);
 }
 .view__test {
   margin: 0;
@@ -55,19 +51,11 @@
   z-index: 1;
   justify-content: right;
 }
-.view__chart {
-  margin: 0;
-  padding: 0 20px;
-  color: white;
-  background-color: black;
-  text-align: left;
-  position: relative;
-  /* border: none; */
-  /* background-repeat: no-repeat;
-  background-size: contain; */
-  z-index: 1;
-  justify-content: center;
-  align-items:center;
+
+.view__carousel {
+  display: block;
+  padding: 20px;
+  /* height: calc(100vh - 200px);  */
 }
 .view__test_container {
   display: flex;
@@ -75,7 +63,7 @@
 
   flex-shrink: 1;
 }
-.view__test_text {
+.view__home_text {
   /* margin: 40px 0 0 260px; */
   margin: 40px 0 0 0;
   font-size: 90px;
@@ -83,7 +71,7 @@
   line-height: 1.2;
 }
 
-.view__test_subtext {
+.view__home_subtext {
   margin: 0;
   padding-top: 30px;
   font-size: 60px;
@@ -92,53 +80,53 @@
 }
 
 @media screen and (max-width: 850px) {
-  .view__test_text {
+  .view__home_text {
     margin-left: 160px;
     font-size: 80px;
   }
 
-  .view__test_subtext {
+  .view__home_subtext {
     font-size: 50px;
   }
 }
 @media screen and (max-width: 750px) {
-  .view__test_text {
+  .view__home_text {
     margin-left: 100px;
     font-size: 70px;
   }
 
-  .view__test_subtext {
+  .view__home_subtext {
     font-size: 40px;
   }
 }
 @media screen and (max-width: 650px) {
-  .view__test_text {
+  .view__home_text {
     margin-top: 30px;
     margin-left: 50px;
     font-size: 60px;
   }
 
-  .view__test_subtext {
+  .view__home_subtext {
     font-size: 35px;
   }
 }
 @media screen and (max-width: 455px) {
-  .view__test_text {
+  .view__home_text {
     margin-left: 30px;
     font-size: 50px;
   }
 
-  .view__test_subtext {
+  .view__home_subtext {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 350px) {
-  .view__test_text {
+  .view__home_text {
     margin-left: 10px;
     font-size: 45px;
   }
 
-  .view__test_subtext {
+  .view__home_subtext {
     font-size: 25px;
   }
 }

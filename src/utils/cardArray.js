@@ -9,20 +9,21 @@ const cardArray = [
   {
     title: "Top 10 Solar Producing Countries",
     link: solarbar,
-    caption:  fiftywords ,
+    caption:  fiftywords,
+    
   },
   {
     title: "Top 10 Wind Producing Countries",
     link: windbar,
-    caption:  fiftywords ,
+    caption:  fiftywords,
   },
   {
-    title: "Solar Implementation in Top 5 countries since 2009",
+    title: "Solar Implementation In Top 5 Countries Since 2009",
     link: solarline,
-    caption: fiftywords ,
+    caption: fiftywords,
   },
   {
-    title: "Solar Implementation in Top 5 countries since 1980",
+    title: "Solar Implementation In Top 5 Countries Since 1980",
     link: windline,
     caption: fiftywords,
   },

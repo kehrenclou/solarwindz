@@ -12,12 +12,7 @@ function Nav({ onHomeClick }) {
           </Link>
         </li>
         <li className="nav__list-item">
-          <Link to="/idea" className="nav__link">
-            Idea
-          </Link>
-        </li>
-        <li className="nav__list-item">
-          <Link to="/analysis" className="nav__link">
+          <Link to="/introduction" className="nav__link">
             Introduction
           </Link>
         </li>
@@ -27,10 +22,11 @@ function Nav({ onHomeClick }) {
           </Link>
         </li>
         <li className="nav__list-item">
-          <Link to="/results" className="nav__link">
+          <Link to="/conclusion" className="nav__link">
             Conclusion
           </Link>
         </li>
+
         <li className="nav__list-item">
           <Link to="/about" className="nav__link">
             About

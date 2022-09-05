@@ -1,0 +1,38 @@
+.slick-prev {
+  z-index: 1;
+  left: 25%;
+  top: 10px;
+}
+.slick-next {
+  z-index: 1;
+  right: 25%;
+  top: 10px;
+}
+
+.slick-slide {
+  height: 75%;
+}
+
+.slick-dots {
+  bottom: -25px;
+
+}
+
+.slick-dots li button:before {
+  color: white;
+  background-color: transparent;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 675px){
+    .slick-prev{
+        left: 35%;
+    }
+    .slick-next{
+        right:35%;
+    }
+}

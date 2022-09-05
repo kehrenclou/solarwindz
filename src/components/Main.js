@@ -1,11 +1,12 @@
 /* --------------------------------- imports -------------------------------- */
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import View from "./routes/View";
-import Idea from "./routes/Idea";
+import { Routes, Route } from "react-router-dom";
+
+
 import Home from "./routes/Home";
-import Analysis from "./routes/Analysis";
+import Introduction from "./routes/Introduction";
 import Results from "./routes/Results";
+import Conclusion from "./routes/Conclusion";
 import About from "./routes/About";
 import Test from "./routes/Test";
 
@@ -16,9 +17,9 @@ function Main() {
       <section className="section">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/idea" element={<Idea />} />
-          <Route path="/analysis" element={<Analysis />} />
+          <Route path="/introduction" element={<Introduction />} />
           <Route path="/results" element={<Results />} />
+          <Route path="/conclusion" element={<Conclusion />} />
           <Route path="/about" element={<About />} />
           <Route path="/test" element={<Test />} />
         </Routes>
