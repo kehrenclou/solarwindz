@@ -22,12 +22,25 @@
 }
 
 .view__introduction {
-  background-color: green;
-  height: calc(100vh - 180px);
+  background-color: rgb(6, 58, 6);
+  line-height: 1.6;
+  padding: 50px;
+  font-family: "Inter","Arial",sans-serif;
 }
 
+.view__introduction_header{
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+
+}
+
+.view__introduction_paragraph{
+  font-weight: 200;
+  font-size: 16px;
+}
 .view__conclusion {
-  background-color: blue;
+  background-color: rgb(179, 179, 185);
   height: calc(100vh - 180px);
 }
 
