@@ -1,42 +1,74 @@
 /* --------------------------------- imports -------------------------------- */
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 /* ------------------------------ function Nav ------------------------------ */
-function Nav({ onHomeClick }) {
+function Nav() {
   /* --------------------------------- return --------------------------------- */
   return (
     <nav className="nav">
       <ul className="nav__list">
-        <li className="nav__list-item">
-          <Link to="/" className="nav__link" onClick={onHomeClick}>
-            Home
-          </Link>
-        </li>
-        <li className="nav__list-item">
-          <Link to="/introduction" className="nav__link">
-            Introduction
-          </Link>
-        </li>
-        <li className="nav__list-item">
-          <Link to="/results" className="nav__link">
-            Results
-          </Link>
-        </li>
-        <li className="nav__list-item">
-          <Link to="/conclusion" className="nav__link">
-            Conclusion
-          </Link>
-        </li>
+        <NavLink
+          to="/"
+          style={({ isActive }) => ({
+            color: isActive ? "green" : "white",
+          })}
+          className="nav__link"
+        >
+          <li className="nav__list-item"> Home</li>
+        </NavLink>
 
-        <li className="nav__list-item">
-          <Link to="/about" className="nav__link">
-            About
-          </Link>
-        </li>
-        <li className="nav__list-item">
-          <Link to="/test" className="nav__link">
-            Test
-          </Link>
-        </li>
+        <NavLink
+          to="/introduction"
+          style={({ isActive }) => ({
+            color: isActive ? "green" : "white",
+          })}
+          className="nav__link"
+        >
+          <li className="nav__list-item">Introduction</li>
+        </NavLink>
+
+        <NavLink
+          to="/results"
+          style={({ isActive }) => ({
+            color: isActive ? "green" : "white",
+          })}
+          activeClassName="nav__link_active"
+          className="nav__link"
+        >
+          <li className="nav__list-item"> Results</li>
+        </NavLink>
+
+        <NavLink
+          to="/conclusion"
+          style={({ isActive }) => ({
+            color: isActive ? "green" : "white",
+          })}
+          activeClassName="nav__link_active"
+          className="nav__link"
+        >
+          <li className="nav__list-item">Conclusion </li>
+        </NavLink>
+
+        <NavLink
+          to="/about"
+          style={({ isActive }) => ({
+            color: isActive ? "green" : "white",
+          })}
+          activeClassName="nav__link_active"
+          className="nav__link"
+        >
+          <li className="nav__list-item">About </li>
+        </NavLink>
+
+        <NavLink
+          to="/test"
+          style={({ isActive }) => ({
+            color: isActive ? "green" : "white",
+          })}
+          activeClassName="nav__link_active"
+          className="nav__link"
+        >
+          <li className="nav__list-item"> Test </li>
+        </NavLink>
       </ul>
     </nav>
   );
