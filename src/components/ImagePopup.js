@@ -1,7 +1,6 @@
 /* --------------------------------- imports -------------------------------- */
 import React from "react";
 
-
 /* --------------------------- function ImagePopup -------------------------- */
 function ImagePopup({ card, onClose }) {
   function handleOutsideClick(event) {

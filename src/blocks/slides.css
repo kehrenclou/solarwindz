@@ -15,7 +15,6 @@
 
 .slick-dots {
   bottom: -30px;
-
 }
 
 .slick-dots li button:before {
@@ -27,29 +26,33 @@
   color: red;
   background-color: transparent;
 }
-
-@media screen and (max-width: 775px){
-  .slick-prev{
-      left: 20%;
-  }
-  .slick-next{
-      right:20%;
+@media screen and (max-width: 1100px) {
+  .slick-slider {
+    max-height: 80vh;
   }
 }
-@media screen and (max-width: 675px){
-    .slick-slider{
-        max-height: 70vh;
-    }
-   
-}
-@media screen and (max-width: 500px){
-  .slick-slider{
-      max-height: 70vh;
+@media screen and (max-width: 775px) {
+  .slick-prev {
+    left: 20%;
   }
-  .slick-prev{
+  .slick-next {
+    right: 20%;
+  }
+  .slick-slider {
+    max-height: 75vh;
+  }
+}
+@media screen and (max-width: 675px) {
+  .slick-slider {
+    max-height: 70vh;
+  }
+}
+@media screen and (max-width: 550px) {
+ 
+  .slick-prev {
     left: 15%;
-}
-.slick-next{
-    right:15%;
-}
+  }
+  .slick-next {
+    right: 15%;
+  }
 }
