@@ -31,7 +31,7 @@ function Nav() {
           style={({ isActive }) => ({
             color: isActive ? "green" : "white",
           })}
-          activeClassName="nav__link_active"
+         
           className="nav__link"
         >
           <li className="nav__list-item"> Results</li>
@@ -42,7 +42,7 @@ function Nav() {
           style={({ isActive }) => ({
             color: isActive ? "green" : "white",
           })}
-          activeClassName="nav__link_active"
+         
           className="nav__link"
         >
           <li className="nav__list-item">Conclusion </li>
@@ -53,7 +53,7 @@ function Nav() {
           style={({ isActive }) => ({
             color: isActive ? "green" : "white",
           })}
-          activeClassName="nav__link_active"
+         
           className="nav__link"
         >
           <li className="nav__list-item">About </li>
@@ -64,7 +64,7 @@ function Nav() {
           style={({ isActive }) => ({
             color: isActive ? "green" : "white",
           })}
-          activeClassName="nav__link_active"
+         
           className="nav__link"
         >
           <li className="nav__list-item"> Test </li>

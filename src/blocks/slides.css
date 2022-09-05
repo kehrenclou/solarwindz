@@ -28,11 +28,28 @@
   background-color: transparent;
 }
 
+@media screen and (max-width: 775px){
+  .slick-prev{
+      left: 20%;
+  }
+  .slick-next{
+      right:20%;
+  }
+}
 @media screen and (max-width: 675px){
-    .slick-prev{
-        left: 35%;
+    .slick-slider{
+        max-height: 70vh;
     }
-    .slick-next{
-        right:35%;
-    }
+   
+}
+@media screen and (max-width: 500px){
+  .slick-slider{
+      max-height: 70vh;
+  }
+  .slick-prev{
+    left: 15%;
+}
+.slick-next{
+    right:15%;
+}
 }

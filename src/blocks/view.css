@@ -7,7 +7,7 @@
   position: relative;
   overflow: hidden;
 
-  width: 100%;
+  width: 100vw;
 }
 .view__home {
   padding: 0 30px;
@@ -55,7 +55,7 @@
 
 .view__carousel {
   display: block;
-  padding: 20px;
+  padding: 0 0 20px 0;
   /* height: calc(100vh - 200px);  */
 }
 .view__test_container {

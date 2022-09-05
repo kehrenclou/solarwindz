@@ -1,5 +1,5 @@
 .footer {
-  margin: 0px auto 10px;
+  margin: 0 auto ;
   display: flex;
   max-width: 1280px;
   width: 100%;
@@ -15,5 +15,6 @@
   .footer__text {
     font-size: 14px;
     padding-left: 19px;
+    margin-top: 20px;
   }
 }

@@ -5,7 +5,7 @@ import Card from "./Card";
 import cardArray from "../utils/cardArray";
 
 /* ------------------------------ function Carousel ----------------------------- */
-function Carousel() {
+function Carousel({ onCardClick }) {
   const settings = {
     dots: true,
     arrows: true,
@@ -23,6 +23,7 @@ function Carousel() {
         {cardArray.map((card, index) => (
           <div key={index}>
             <Card
+              onCardClick={onCardClick}
               key={index}
               card={card}
               title={card.title}

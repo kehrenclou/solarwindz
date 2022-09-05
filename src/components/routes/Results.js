@@ -3,10 +3,12 @@ import React from "react";
 import Carousel from "../Carousel";
 
 /* ------------------------------ function View ----------------------------- */
-function Results() {
+function Results({onCardClick}) {
+
+  
   /* --------------------------------- return --------------------------------- */
   return <section className="view view__results">
-    <Carousel/>
+    <Carousel onCardClick={onCardClick}/>
   </section>;
 }
 
