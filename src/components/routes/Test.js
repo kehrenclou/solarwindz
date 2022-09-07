@@ -1,17 +1,23 @@
 /* --------------------------------- imports -------------------------------- */
 import React from "react";
+// import * as d3 from "d3";
+// import * as input from "../../public/data.json"
+// import BarChart from "../BarChart";
+import data from "../../data.json";
+import dataSet from "../../parsedData.json"
 
-import solarbar from "../../images/solarbar.jpg";
-import fifty from "../../utils/fiftywords";
-import Carousel from "../Carousel";
 
-/* ------------------------------ function Test ----------------------------- */
+/* ----------------------------- function dthree ---------------------------- */
 function Test() {
-  /* --------------------------------- return --------------------------------- */
+
+// const countries = dataSet.filter(data =>data.Country);
+console.log(dataSet[0]);
+console.log(Object.keys(dataSet));
+console.log(data);
+
   return (
-    
     <section>
-      <Carousel/>
+      <div>test</div>
     </section>
   );
 }

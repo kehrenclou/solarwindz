@@ -1,17 +1,20 @@
 /* --------------------------------- imports -------------------------------- */
 import React from "react";
+
+import solarbar from "../../images/solarbar.jpg";
+import fifty from "../../utils/fiftywords";
 import Carousel from "../Carousel";
 
-/* ------------------------------ function View ----------------------------- */
-function Results({ onCardClick }) {
+/* ------------------------------ function Test ----------------------------- */
+function Test() {
   /* --------------------------------- return --------------------------------- */
   return (
-    // <section className="view view__results">
-    <section >
-      <Carousel onCardClick={onCardClick} />
+    
+    <section>
+      <Carousel/>
     </section>
   );
 }
 
 /* --------------------------------- exports -------------------------------- */
-export default Results;
+export default Test;
