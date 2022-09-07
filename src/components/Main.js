@@ -15,8 +15,9 @@ function Main({ onCardClick }) {
   return (
     <main>
       <section className="section">
-        <Routes>
-          <Route path="/" element={<Home />} />
+        <Routes basename={"/"}>
+          <Route exact path="/" element={<Home />} />
+           
           <Route path="/introduction" element={<Introduction />} />
           <Route
             path="/results"

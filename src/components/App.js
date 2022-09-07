@@ -5,7 +5,7 @@ import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
 import ImagePopup from "./ImagePopup";
-import TestFetch from "../TestFetch";
+// import TestFetch from "../TestFetch";
 
 /* ------------------------------ function App ------------------------------ */
 function App() {
@@ -34,7 +34,7 @@ function App() {
   }
   /* --------------------------------- return --------------------------------- */
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <div className="root">
         <div className="page">
           <div className="page__container">
