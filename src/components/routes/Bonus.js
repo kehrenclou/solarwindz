@@ -1,19 +1,17 @@
 /* --------------------------------- imports -------------------------------- */
 import React from "react";
-// import * as d3 from "d3";
-// import * as input from "../../public/data.json"
-// import BarChart from "../BarChart";
-import Data from "../../utils/Data";
+
 
 /* ----------------------------- function dthree ---------------------------- */
-function Test() {
+function Bonus() {
   return (
     <section>
-      <div>test</div>
-      {/* <Data /> */}
+      <div>bonus</div>
+      <div> under construction!</div>
+    
     </section>
   );
 }
 
 /* --------------------------------- exports -------------------------------- */
-export default Test;
+export default Bonus;

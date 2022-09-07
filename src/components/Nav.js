@@ -57,14 +57,14 @@ function Nav() {
         </NavLink>
 
         <NavLink
-          to="/test"
+          to="/bonus"
           style={({ isActive }) => ({
             color: isActive ? "orange" : "white",
           })}
 
           className="nav__link"
         >
-          <li className="nav__list-item"> Test </li>
+          <li className="nav__list-item"> Bonus </li>
         </NavLink>
       </ul>
     </nav>

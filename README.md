@@ -36,8 +36,13 @@ The sets used were
 - Merging Data sets
 
 ## Link to Github Project
-currently only going to readme file.  
-Working on a fix
+
+having issues with github and Routes playing nice
+
+# should be opening to home page...but it doesn't
+
+# you will need to click on home on Navbar to get to home
+
 https://kehrenclou.github.io/solarwindz/
 
 ## Plan on improving project

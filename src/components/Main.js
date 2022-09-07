@@ -7,7 +7,7 @@ import Introduction from "./routes/Introduction";
 import Results from "./routes/Results";
 import Conclusion from "./routes/Conclusion";
 import About from "./routes/About";
-import Test from "./routes/Test";
+import Bonus from "./routes/Bonus";
 
 /* ------------------------------ function Main ----------------------------- */
 function Main({ onCardClick }) {
@@ -23,10 +23,10 @@ function Main({ onCardClick }) {
             path="/results"
             element={<Results onCardClick={onCardClick} />}
           />
-          {/* <Route path="/results" element={<Results />} /> */}
+
           <Route path="/conclusion" element={<Conclusion />} />
           <Route path="/about" element={<About />} />
-          <Route path="/test" element={<Test />} />
+          <Route path="/bonus" element={<Bonus />} />
         </Routes>
       </section>
     </main>
