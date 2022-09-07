@@ -23,7 +23,7 @@ function About() {
           <p className="view__content_paragraph ">
             Hi, my name is Krista, I am currently a Software Engineering student
             in sprint 12. I am changing careers from a winemaker with a former
-            life in Biochem research, fashion design and a commercial diver in
+            life in Biochem research, fashion design and commercial diving in
             Lake Michigan.
           </p>
         </div>
