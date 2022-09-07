@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/solarwindz/static/css/main.e38053aa.css",
-    "main.js": "/solarwindz/static/js/main.27e44a48.js",
+    "main.js": "/solarwindz/static/js/main.c194fc49.js",
     "static/js/787.b541d961.chunk.js": "/solarwindz/static/js/787.b541d961.chunk.js",
     "static/media/Inter-Medium.woff?v=3.19": "/solarwindz/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Light.woff?v=3.19": "/solarwindz/static/media/Inter-Light.994e34451cc19ede31d3.woff",
@@ -20,11 +20,11 @@
     "index.html": "/solarwindz/index.html",
     "static/media/closebutton.svg": "/solarwindz/static/media/closebutton.e6c3a9a9a26912881a20.svg",
     "main.e38053aa.css.map": "/solarwindz/static/css/main.e38053aa.css.map",
-    "main.27e44a48.js.map": "/solarwindz/static/js/main.27e44a48.js.map",
+    "main.c194fc49.js.map": "/solarwindz/static/js/main.c194fc49.js.map",
     "787.b541d961.chunk.js.map": "/solarwindz/static/js/787.b541d961.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e38053aa.css",
-    "static/js/main.27e44a48.js"
+    "static/js/main.c194fc49.js"
   ]
 }
