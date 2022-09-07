@@ -36,11 +36,13 @@ The sets used were
 - Merging Data sets
 
 ## Link to Github Project
-
+currently only going to readme file.  
+Working on a fix
 https://kehrenclou.github.io/solarwindz/
 
 ## Plan on improving project
 
+- fix git hub pages deployment
 - add windmill animations
 - make charts responsive
 - hide carousel arrows on modal popup

@@ -22,13 +22,14 @@
 }
 
 .view__content {
-  background-color: rgb(6, 58, 6);
+  background-color: black;
   line-height: 1.6;
   min-height: 70vh;
   padding: 15px 50px 15px;
   font-family: "Inter", "Arial", sans-serif;
   margin-bottom: 0;
   margin-top: 0;
+  color: rgb(252, 248, 243);
 }
 .view__content_black {
   background-color: black;
@@ -37,9 +38,18 @@
 .view__content_header {
   padding: 0;
   margin: 0;
-  font-weight: 600;
+  font-weight: 500;
+  font-size:28px;
+  color: yellowgreen;
 }
+.view__content_sub-header {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  margin-top: 20px;
 
+  color: yellowgreen;
+}
 .view__content_paragraph {
   font-weight: 200;
   font-size: 16px;

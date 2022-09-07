@@ -11,7 +11,7 @@ function About() {
           About Solar Windz
         </h2>
         <div className="view__content_grid-left">
-          <h3 className="view__content_name">Will Newsome</h3>
+          <h3 className="view__content_sub-header">Will Newsome</h3>
           <p className="view__content_paragraph ">
             Hey, my name is Will, I’m currently a data science student on sprint
             7. I live in a small town right outside of Charlotte, NC. I
@@ -19,7 +19,7 @@ function About() {
           </p>
         </div>
         <div className="view__content_grid-right">
-          <h3 className="view__content_name">Krista Ehrenclou</h3>
+          <h3 className="view__content_sub-header">Krista Ehrenclou</h3>
           <p className="view__content_paragraph ">
             Hi, my name is Krista, I am currently a Software Engineering student
             in sprint 12. I am changing careers from a winemaker with a former

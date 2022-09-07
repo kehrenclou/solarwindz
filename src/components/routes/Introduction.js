@@ -7,6 +7,10 @@ function Introduction() {
   return (
     <section className="view view__content">
       <h2 className="view__content_header">Introduction</h2>
+      <h3 className="view__content_sub-header">
+        The purpose of this study is to see who the global leaders are in
+        adopting alternative energies - specifically solar and wind.
+      </h3>
       <p className="view__content_paragraph">
         Two different energy datasets, the global solar power tracker, and the
         global wind power tracker, were used for the project. To make the
