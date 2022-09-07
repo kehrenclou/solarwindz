@@ -107,14 +107,8 @@
   display: block;
   padding: 0 0 20px 0;
 }
-.view__test_container {
-  display: flex;
-  flex-direction: column;
 
-  flex-shrink: 1;
-}
 .view__home_text {
-  /* margin: 40px 0 0 260px; */
   margin: 40px 0 0 0;
   font-size: 90px;
   font-weight: 600;

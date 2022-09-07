@@ -38,13 +38,9 @@
   .slick-next {
     right: 20%;
   }
-  /* .slick-slider {
-    max-height: 80vh;
-  } */
 }
 
 @media screen and (max-width: 550px) {
- 
   .slick-prev {
     left: 15%;
   }

@@ -4,7 +4,7 @@ import solarline from "../images/solarline.jpg";
 import windbar from "../images/windbar.jpg";
 import windline from "../images/windline.jpg";
 import stackedbar from "../images/stackedbar.jpg"
-// import fiftywords from "./fiftywords";
+
 import {
   solarBarText,
   windBarText,

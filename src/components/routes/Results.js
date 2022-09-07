@@ -6,8 +6,7 @@ import Carousel from "../Carousel";
 function Results({ onCardClick }) {
   /* --------------------------------- return --------------------------------- */
   return (
-    // <section className="view view__results">
-    <section >
+    <section>
       <Carousel onCardClick={onCardClick} />
     </section>
   );

@@ -7,8 +7,8 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
 
-  display: flex; /*call display flex when modal is open .modal_open - modifier
-    /* display: none; */ /*hidden set below with visibility and opacity for transition*/
+  display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;

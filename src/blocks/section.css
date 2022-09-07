@@ -9,14 +9,12 @@
   justify-content: center;
 }
 
-.section__chart{
- 
+.section__chart {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  align-items:center;
-position: relative;
-  
+  align-items: center;
+  position: relative;
 }

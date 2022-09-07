@@ -6,8 +6,8 @@ import {
   windDataSumConst as windDataC,
 } from "../../data/data";
 
-/* ----------------------------- function dthree ---------------------------- */
-function Bonus() {
+/* ----------------------------- function Future ---------------------------- */
+function Future() {
   const [powerData, setPowerData] = useState({
     labels: solarDataC.map((data) => data.Region),
     datasets: [
@@ -30,10 +30,13 @@ function Bonus() {
 
   return (
     <section className="section__chart">
-      <h3>The Future of Solar and Wind Power</h3>
+      <h3 className="view__content_header">
+        The Future of Solar and Wind Power
+      </h3>
       <p className="view__content_paragraph_chart">
-        This graph shows a global summation of the estimated MW that will be generated
-        upon completion of current in progress construction of new facilities.
+        This graph shows a global summation of the estimated MW that will be
+        generated upon completion of current in progress construction of new
+        facilities.
       </p>
       <div style={{ width: 700 }} className="view__bonus">
         <BarChart chartData={powerData} className="chart" />
@@ -43,4 +46,4 @@ function Bonus() {
 }
 
 /* --------------------------------- exports -------------------------------- */
-export default Bonus;
+export default Future;

@@ -33,15 +33,19 @@ The sets used were
 
 - Jupyter Books
 - Python
+- Libraries
+  - Pandas
+  - Numpy
+  - Matplotlib
+  - Seaborn
 - Merging Data sets
 
 ## Link to Github Project
 
 having issues with github and Routes playing nice
 
-# should be opening to home page...but it doesn't
-
-# you will need to click on home on Navbar to get to home
+should be opening to home page...
+if app opens on black screen click home button in Nav bar
 
 https://kehrenclou.github.io/solarwindz/
 
