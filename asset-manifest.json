@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/solarwindz/static/css/main.ee43c777.css",
+    "main.js": "/solarwindz/static/js/main.d3e0378e.js",
+    "static/js/787.b541d961.chunk.js": "/solarwindz/static/js/787.b541d961.chunk.js",
+    "static/media/Inter-Medium.woff?v=3.19": "/solarwindz/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Light.woff?v=3.19": "/solarwindz/static/media/Inter-Light.994e34451cc19ede31d3.woff",
+    "static/media/Inter-Black.woff?v=3.19": "/solarwindz/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff?v=3.19": "/solarwindz/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/solarline.jpg": "/solarwindz/static/media/solarline.45ac5339c17c2d06ac4d.jpg",
+    "static/media/windline.jpg": "/solarwindz/static/media/windline.f1f56a09344738f44268.jpg",
+    "static/media/stackedbar.jpg": "/solarwindz/static/media/stackedbar.0b75ca2f4152c0d6ac36.jpg",
+    "static/media/windbar.jpg": "/solarwindz/static/media/windbar.199fe19c73453b2d6308.jpg",
+    "static/media/solarbar.jpg": "/solarwindz/static/media/solarbar.e9303d03430705afc13c.jpg",
+    "static/media/lbulb.jpg": "/solarwindz/static/media/lbulb.380a7136324dcfd39678.jpg",
+    "static/media/slick.svg": "/solarwindz/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/solarwindz/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/solarwindz/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/solarwindz/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/solarwindz/index.html",
+    "static/media/closebutton.svg": "/solarwindz/static/media/closebutton.e6c3a9a9a26912881a20.svg",
+    "main.ee43c777.css.map": "/solarwindz/static/css/main.ee43c777.css.map",
+    "main.d3e0378e.js.map": "/solarwindz/static/js/main.d3e0378e.js.map",
+    "787.b541d961.chunk.js.map": "/solarwindz/static/js/787.b541d961.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee43c777.css",
+    "static/js/main.d3e0378e.js"
+  ]
+}
