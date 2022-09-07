@@ -21,21 +21,25 @@
   z-index: 1;
 }
 
-.view__introduction {
+.view__content {
   background-color: rgb(6, 58, 6);
   line-height: 1.6;
   padding: 50px;
   font-family: "Inter","Arial",sans-serif;
+  margin-bottom: 10px;
 }
-
-.view__introduction_header{
+.view__content_black{
+  background-color: black;
+  margin-bottom: 300px;
+}
+.view__content_header{
   padding: 0;
   margin: 0;
   font-weight: 400;
 
 }
 
-.view__introduction_paragraph{
+.view__content_paragraph{
   font-weight: 200;
   font-size: 16px;
 }
