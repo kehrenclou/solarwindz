@@ -15,8 +15,8 @@ function Main({ onCardClick }) {
   return (
     <main>
       <section className="section">
-        <Routes basename={"/"}>
-          <Route exact path="/" element={<Home />} />
+        <Routes basename={"/solarwindz"}>
+          <Route  path="/solarwindz" element={<Home />} />
            
           <Route path="/introduction" element={<Introduction />} />
           <Route
