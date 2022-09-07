@@ -35,7 +35,16 @@ function Nav() {
         >
           <li className="nav__list-item"> Results</li>
         </NavLink>
+        <NavLink
+          to="/bonus"
+          style={({ isActive }) => ({
+            color: isActive ? "orange" : "white",
+          })}
 
+          className="nav__link"
+        >
+          <li className="nav__list-item"> Future </li>
+        </NavLink>
         <NavLink
           to="/conclusion"
           style={({ isActive }) => ({
@@ -56,16 +65,7 @@ function Nav() {
           <li className="nav__list-item">About </li>
         </NavLink>
 
-        <NavLink
-          to="/bonus"
-          style={({ isActive }) => ({
-            color: isActive ? "orange" : "white",
-          })}
-
-          className="nav__link"
-        >
-          <li className="nav__list-item"> Bonus </li>
-        </NavLink>
+     
       </ul>
     </nav>
   );

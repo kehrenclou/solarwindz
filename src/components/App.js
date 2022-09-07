@@ -1,6 +1,6 @@
 /* --------------------------------- imports -------------------------------- */
 import React, { useEffect, useState } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
@@ -34,7 +34,7 @@ function App() {
   }
   /* --------------------------------- return --------------------------------- */
   return (
-    <BrowserRouter >
+    <HashRouter >
       <div className="root">
         <div className="page">
           <div className="page__container">
@@ -48,7 +48,7 @@ function App() {
           </div>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

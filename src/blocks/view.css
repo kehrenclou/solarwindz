@@ -39,7 +39,7 @@
   padding: 0;
   margin: 0;
   font-weight: 500;
-  font-size:28px;
+  font-size: 28px;
   color: yellowgreen;
 }
 .view__content_sub-header {
@@ -54,6 +54,10 @@
   font-weight: 200;
   font-size: 16px;
   margin: 10px 0 10px 0;
+}
+.view__content_paragraph_chart {
+  padding: 0 50px;
+  text-align: center;
 }
 
 .view__content_about {
@@ -124,11 +128,10 @@
   font-weight: 200;
   line-height: 1.2;
 }
-.view__bonus{
-  background-color:white;
- 
- padding: 60px 0 10px;
-  
+.view__bonus {
+  background-color: white;
+
+  padding: 60px 0 10px;
 }
 
 @media screen and (max-width: 850px) {

@@ -1,7 +1,10 @@
 /* --------------------------------- imports -------------------------------- */
 import React, { useState } from "react";
 import BarChart from "../BarChart";
-import { solarDataSumConst as solarDataC, windDataSumConst as windDataC, } from "../../data/data";
+import {
+  solarDataSumConst as solarDataC,
+  windDataSumConst as windDataC,
+} from "../../data/data";
 
 /* ----------------------------- function dthree ---------------------------- */
 function Bonus() {
@@ -11,23 +14,28 @@ function Bonus() {
       {
         label: "Total MW of Solar Power in Construction",
         data: solarDataC.map((data) => data.solarcapacity),
-        backgroundColor:["orange"],
-        borderColor:"black",
-        borderWidth:1,
+        backgroundColor: ["orange"],
+        borderColor: "black",
+        borderWidth: 1,
       },
       {
         label: "Total MW of Wind Power in Construction",
         data: windDataC.map((data) => data.windcapacity),
-        backgroundColor:["green"],
-        borderColor:"black",
-        borderWidth:1,
+        backgroundColor: ["green"],
+        borderColor: "black",
+        borderWidth: 1,
       },
     ],
   });
 
   return (
     <section className="section__chart">
-      <div style={{width:700}}className="view__bonus">
+      <h3>The Future of Solar and Wind Power</h3>
+      <p className="view__content_paragraph_chart">
+        This graph shows a global summation of the estimated MW that will be generated
+        upon completion of current in progress construction of new facilities.
+      </p>
+      <div style={{ width: 700 }} className="view__bonus">
         <BarChart chartData={powerData} className="chart" />
       </div>
     </section>

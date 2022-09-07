@@ -16,6 +16,7 @@ function Main({ onCardClick }) {
     <main>
       <section className="section">
         <Routes>
+        
           <Route path="/" element={<Home />} />
 
           <Route path="/introduction" element={<Introduction />} />
@@ -23,7 +24,6 @@ function Main({ onCardClick }) {
             path="/results"
             element={<Results onCardClick={onCardClick} />}
           />
-
           <Route path="/conclusion" element={<Conclusion />} />
           <Route path="/about" element={<About />} />
           <Route path="/bonus" element={<Bonus />} />
