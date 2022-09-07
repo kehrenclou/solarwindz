@@ -35,10 +35,12 @@ function Introduction() {
         and solar production by country since 1980 and 2009.
       </p>
       <p className="view__content_paragraph">
-        The last graph is a stacked, horizontal bar graph which displays the
-        total energy production by region.
+        The last graph is a stacked, horizontal bar graph displaying total
+        energy production by region.
       </p>
-      <p className="view__content_paragraph">Browse the graphs in the Results section.</p>
+      <p className="view__content_paragraph">
+        Browse the graphs in the Results section.
+      </p>
     </section>
   );
 }

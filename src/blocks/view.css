@@ -24,39 +24,58 @@
 .view__content {
   background-color: rgb(6, 58, 6);
   line-height: 1.6;
-  padding: 50px;
-  font-family: "Inter","Arial",sans-serif;
-  margin-bottom: 10px;
+  padding: 15px 50px 15px;
+  font-family: "Inter", "Arial", sans-serif;
+  margin-bottom:0;
+  margin-top: 0;
 }
-.view__content_black{
+.view__content_black {
   background-color: black;
-  margin-bottom: 300px;
+  margin-bottom: 20px;
 }
-.view__content_header{
+.view__content_header {
   padding: 0;
   margin: 0;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 
-.view__content_paragraph{
+.view__content_paragraph {
   font-weight: 200;
   font-size: 16px;
-}
-.view__conclusion {
-  background-color: rgb(179, 179, 185);
-  height: calc(100vh - 180px);
+  margin: 10px 0 10px 0;
 }
 
-/* .view__results {
-  background-color: yellowgreen; 
-  height: calc(100vh - 180px); 
-} */
-
-.view__about {
-  background-color: pink;
-  height: calc(100vh - 180px);
+.view__content_about {
+  background-color: black;
+  margin-bottom: 170px;
 }
+.view__content_name{
+  margin:0;
+  
+}
+.view__content_grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-row-gap: 40px;
+  grid-column-gap: 15vw;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: (100px 400px);
+  grid-template-areas:
+    "title title"
+    "left right";
+}
+.view__content_header_grid {
+  grid-area: title;
+  justify-self: center;
+}
+
+.view__content_grid-left {
+  grid-area: left;
+}
+.view__content_grid-right {
+  grid-area: right;
+}
+
 .view__test {
   margin: 0;
   padding: 0 30px;
@@ -73,7 +92,7 @@
 .view__carousel {
   display: block;
   padding: 0 0 20px 0;
-  /* height: calc(100vh - 200px);  */
+
 }
 .view__test_container {
   display: flex;
@@ -116,6 +135,9 @@
   .view__home_subtext {
     font-size: 40px;
   }
+  .view__content_about{
+    margin-bottom: 50px;
+  }
 }
 @media screen and (max-width: 650px) {
   .view__home_text {
@@ -127,6 +149,26 @@
   .view__home_subtext {
     font-size: 35px;
   }
+  
+}
+@media screen and (max-width: 550px){
+  .view__content_grid{
+  grid-row-gap: 20px;
+  grid-column-gap: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: (repeat(3,1fr));
+  grid-template-areas:
+    "title"
+    "left" 
+    "right";
+
+}
+.view__content_about{
+  margin:0 0 50px 0;
+  padding: 20px;
+}
+   
+
 }
 @media screen and (max-width: 455px) {
   .view__home_text {
@@ -137,6 +179,7 @@
   .view__home_subtext {
     font-size: 30px;
   }
+ 
 }
 @media screen and (max-width: 350px) {
   .view__home_text {
