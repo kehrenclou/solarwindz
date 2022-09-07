@@ -124,6 +124,12 @@
   font-weight: 200;
   line-height: 1.2;
 }
+.view__bonus{
+  background-color:white;
+ 
+ padding: 60px 0 10px;
+  
+}
 
 @media screen and (max-width: 850px) {
   .view__home_text {

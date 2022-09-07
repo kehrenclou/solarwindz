@@ -19,3 +19,6 @@
 @import url("~slick-carousel/slick/slick.css");
 @import url("~slick-carousel/slick/slick-theme.css");
 @import url("./blocks/slides");
+
+
+@import url("./blocks/chart.css");
