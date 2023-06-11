@@ -7,6 +7,12 @@ The sets used were
 -the Global-Solar-Power-Tracker-May-2022
 -the Global-Wind-Power-Tracker-May-2022
 
+## Demo
+https://github.com/kehrenclou/solarwindz/assets/98502327/0ee9f970-5e5c-49ab-83b2-4f0b71b1134b
+
+## Link to Github Project
+https://kehrenclou.github.io/solarwindz/
+
 ## Project Features
 
 - Flexbox
@@ -40,14 +46,7 @@ The sets used were
   - Seaborn
 - Merging Data sets
 
-## Link to Github Project
 
-having issues with github and Routes playing nice
-
-should be opening to home page...
-if app opens on black screen click home button in Nav bar
-
-https://kehrenclou.github.io/solarwindz/
 
 ## Plan on improving project
 
